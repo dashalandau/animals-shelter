@@ -5,7 +5,6 @@ def find_available_slots(booked_slots, visit_duration):
     start_time = datetime(2023, 8, 1, 8, 0)
     end_time = datetime(2023, 8, 1, 18, 0)
 
-    # Створення списку всіх доступних часових інтервалів
     available_slots = []
     current_time = start_time
 
